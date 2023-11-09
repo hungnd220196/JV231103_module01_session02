@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- table: bảng
+    tr: dòng
+td: cột
+cellpadding kc viền đến text
+spacing  
+th: đưa text ra giữa và in đậm
+thuộc tính: attribute
+thẻ tag hay element
+align: chứa các giá trị(left, right dùng căn text trong td)
+caption:quản lý tiêu để của bảng
+colspan gộp các ô  cột vào với nhau, rowspan hàng-->
+
+    <table border="1" cellpadding="30" cellspacing="0">
+      <caption>
+        Quản lý sinh viên
+      </caption>
+      <thead>
+        <tr>
+          <th>stt</th>
+          <th>tên</th>
+          <th>tuổi</th>
+          <th>địa chỉ</th>
+          <th>số điện thoại</th>
+          <th>giới tính</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Nguyễn Đức Hùng</td>
+          <td>27</td>
+          <td>Hà Nội</td>
+          <td align="center">21328484655</td>
+          <td>Nam</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5">Tổng số sinh viên nam là</td>
+          <td>1</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
